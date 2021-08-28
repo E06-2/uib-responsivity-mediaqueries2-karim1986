@@ -118,3 +118,12 @@ li {
     font-weight: bolder;
   }
 }
+
+@media print {
+  body {
+    font-size: 12pt;
+  }
+  main {
+    padding: 0.5cm;
+  }
+}
